@@ -1,0 +1,44 @@
+/*universal styles*/
+
+body {
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(235, 189, 103);
+    opacity: 0.6;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2, h4 {
+    margin: 10px;
+}
+
+
+
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+.flexbox-container-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-shrink: ;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* germteig section  */
+
+#germteig {
+    max-width: 800px;
+    margin: 0 auto;
+}

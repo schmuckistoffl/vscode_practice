@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sauerteig Rechner</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='converter.js'></script>
+</head>
+<body>
+
+    <!-- ==============================================
+    Section: Germteig -->
+    <div id="germteig">
+        <h1>Angaben Trockensauerteig/Germteig</h1>
+        <label for="mehl">Mehl:</label>
+        <input type="number" name="mehl" id="mehl"><br>
+        
+        
+        <label for="wasser">Flüssigkeit:</label>
+        <input type="number" name="wasser" id="wasser"><br>
+        
+        <input type=button name="knopf" value="Berechnen" onClick="convertToSauerteig()"><br>
+    </div>
+    
+    
+    
+    
+    <!-- ==============================================
+    Section: Sauerteig -->
+    
+    <h1>Mengen für Sauerteig-Rezept</h1>
+    <!-- Menge Mehl für Sauerteig -->
+    <label for="mengeMehlSauerteig">Mehl:</label>
+    <input type="number" name="mengeMehlSauerteig" id="mengeMehlSauerteig"><br>
+
+    <!-- Menge Wasser für Sauerteig -->
+    <label for="mengeWasserSauerteig">Wasser (Flüssigkeit gesamt):</label>
+    <input type="number" name="mengeWasserSauerteig" id="mengeWasserSauerteig"><br>
+    
+    <!-- Menge Sauerteig für Sauerteig -->
+    <label for="mengeSauerteig">Sauerteig:</label>
+    <input type="number" name="mengeSauerteig" id="mengeSauerteig"><br>
+</body>
+</html>
